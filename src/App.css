@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+:root {
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-red: #f95700;
+}
+
+/************ Navbar ************/
+#mylogo {
+    margin-top: -20%;
+}
+
+nav a.nav-link {
+    letter-spacing: 0.15em;
+    cursor: pointer
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    margin-right: 0.75em;
+    margin-left: 0.75em;
+    color: var(--primary-white) !important;
+    border-top: 0.01em
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+    border-top: 0.01em solid var(--primary-red) !important
+}
+.navbar-nav > li > a:hover {
+    border-top: 0.01em solid var(--primary-orange) !important
+}
+
+.navbar-brand {
+    max-width: 17.25em;
+    padding: 0 !important;
+    height: 5em !important;
+}
