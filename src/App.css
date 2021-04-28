@@ -11,6 +11,7 @@ body {
 
 :root {
     --primary-white: #fff;
+    --primary-black: #000;
     --primary-orange: #f9ab00;
     --primary-red: #f95700;
 }
@@ -46,4 +47,23 @@ nav ul li {
     max-width: 17.25em;
     padding: 0 !important;
     height: 5em !important;
+}
+
+
+
+
+/************ Header ************/
+.header-wrapper {
+    position: relative;
+    background-color: var(--primary-white) !important;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+    color: var(--primary-black) !important
 }

@@ -4,7 +4,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar () {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#68a3b8"}}>
+        <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "rgb(101, 95, 86)"}}>
             <div className="container">
                 <a className="navbar-brand" href="/"><img id="mylogo" src={mylogo} alt="portfolio_logo"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
