@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,8 +19,11 @@ body {
 }
 
 /************ Navbar ************/
+nav {
+    z-index: 2;
+}
 #mylogo {
-    margin-top: -20%;
+    margin-top: -23%;
 }
 
 nav a.nav-link {
@@ -46,24 +51,74 @@ nav ul li {
 .navbar-brand {
     max-width: 17.25em;
     padding: 0 !important;
-    height: 5em !important;
+    height: 4em !important;
 }
-
-
-
 
 /************ Header ************/
 .header-wrapper {
     position: relative;
-    background-color: var(--primary-white) !important;
+    background-color: var(--primary-black) !important;
     height: 90vh;
 }
 
 .main-info {
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     font-family: 'Abel', sans-serif;
     color: var(--primary-black) !important
+}
+.main-info > h1 {
+    font-size: 2em;
+    margin-top: 1.2em;
+    color: var(--primary-white) !important
+}
+
+.typical-text {
+    font-size: 2.3em;
+    font-family: 'Indie Flower', cursive;
+    color: var(--primary-white) !important
+}
+
+#my_photo {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.tsparticles-canvas-el {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+/************ Media jQuery ************/
+@media (max-width: 768px) {
+    .typical-text {
+        font-size: 1em;
+    }
+    #my_photo {
+        width: 300px;
+    }
+}
+
+/* for galaxy fold only */
+@media all and (max-width: 280px) {
+    .typical-text {
+        font-size: 0.7em;
+    }
+    #my_photo {
+        width: 250px;
+    }
+    #mylogo {
+        width: 180px;
+    }
 }
