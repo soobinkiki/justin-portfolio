@@ -1,8 +1,10 @@
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from './components/Navbar'
-import Header from './components/Header'
+import Navbar from './components/Navbar/Navbar'
+import Header from './components/Main/Header'
 import Particles from 'react-particles-js'
+import About from './components/Main/About'
+import { Link } from 'react-scroll'
 
 export default function App() {
     return (
@@ -29,6 +31,7 @@ export default function App() {
                 }}/>
             <Navbar />
             <Header />
+            <About />
         </>
     );
 }

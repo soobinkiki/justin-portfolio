@@ -58,7 +58,7 @@ nav ul li {
 .header-wrapper {
     position: relative;
     background-color: var(--primary-black) !important;
-    height: 90vh;
+    height: 100vh;
 }
 
 .main-info {
@@ -75,13 +75,12 @@ nav ul li {
     color: var(--primary-black) !important
 }
 .main-info > h1 {
-    font-size: 2em;
-    margin-top: 1.2em;
+    font-size: 8em;
     color: var(--primary-white) !important
 }
 
 .typical-text {
-    font-size: 2.3em;
+    font-size: 10em;
     font-family: 'Indie Flower', cursive;
     color: var(--primary-white) !important
 }

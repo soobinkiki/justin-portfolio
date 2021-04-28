@@ -1,4 +1,4 @@
-import mylogo from '../../src/portfolio_logo.png'
+import mylogo from '../../../src/portfolio_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
