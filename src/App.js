@@ -5,10 +5,11 @@ import Header from './components/Main/Header'
 import Particles from 'react-particles-js'
 import About from './components/Main/About'
 import Project from './components/Main/Project'
+import Contact from './components/Main/Contact'
 
 export default function App() {
     return (
-        <>
+        <div id="home">
             <Navbar />
             <Particles 
                 className="particles"
@@ -33,6 +34,7 @@ export default function App() {
             <Header />
             <About />
             <Project />
-        </>
+            <Contact />
+        </div>
     );
 }

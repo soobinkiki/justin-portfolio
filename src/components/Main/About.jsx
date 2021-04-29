@@ -41,12 +41,12 @@ export default function About () {
                 </div>
                 <div></div>
                 <div className="about_introduce">
-                    <h1>Hi, I'm Justin Park</h1>
+                    <h1>Hello, I'm Justin Park</h1>
                     <p>I’m a creative-minded and solution-driven front-end software engineer who has a 
                         passion for building well-designed and intuitive programs. My confidence with JavaScript frameworks, 
                         such as React, paired with CSS and bootstrap allow me to create well-designed and functioning solutions to problems.</p>
                     <div className="resume_linkedin_github">
-                        <button id="resume" type="button"><a href="images/resume.pdf" target="_blank">Resume</a></button>
+                        <button id="resume" type="button"><a href="images/justin_resume.pdf" target="_blank">Resume</a></button>
                         <a href="https://www.linkedin.com/in/justin-park/" target="_blank"><img id="linkedInIMG" src="images/linkedin.png"></img></a>
                         <a href="https://github.com/soobinkiki" target="_blank"><img id="githubIMG" src="/images/github.png" alt="GITHUB"></img></a>
                     </div>

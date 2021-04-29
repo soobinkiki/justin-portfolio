@@ -23,13 +23,6 @@ nav {
     z-index: 2;
 }
 
-/* .main-nav {
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    background-color: rgb(167, 151, 129);
-} */
-
 #mylogo {
     margin-top: -23%;
 }
@@ -61,6 +54,14 @@ nav ul li {
     padding: 0 !important;
     height: 4em !important;
 }
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+}
+
+
+
 
 /************ Header ************/
 .header-wrapper {
@@ -110,7 +111,8 @@ nav ul li {
 #about {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 1000px;
+    height: 1100px;
+    padding: 100px;
 }
 
 #about > h1 {
@@ -145,7 +147,6 @@ nav ul li {
     font-size: 1.3em;
 }
 
-
 .languages_logos_container {
     margin-left: auto;
     margin-right: auto;
@@ -158,6 +159,7 @@ nav ul li {
 
 .languages_logos_container {
     border: 0.25em solid black;
+    margin-right: 35px;
 }
 .languages_logos_container > h1 {
     font-family: 'Abel', sans-serif;
@@ -200,7 +202,8 @@ nav ul li {
 /**************** Project ***************/
 .project_container {
     width: 100%;
-    height: 1000px;
+    height: 100vh;
+    padding: 100px;
     background-color: black;
 }
 
@@ -209,6 +212,21 @@ nav ul li {
     text-align: center;
     padding: 2%;
 }
+
+
+/**************** Contact ***************/
+.contact_container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-white) !important
+}
+
+.contact_container > a > h1 {
+    display: inline-block;
+    font-size: 10em;
+    font-family: 'Indie Flower', cursive;
+}
+
 
 
 /************ Media jQuery ************/
@@ -224,6 +242,9 @@ nav ul li {
     #my_photo {
         width: 500px;
     }
+    .about_container {
+        display: list-item;
+    }
 }
 @media (max-width: 768px) {
     .typical-text {
@@ -236,6 +257,9 @@ nav ul li {
     }
     #my_photo {
         width: 300px;
+    }
+    .about_container {
+        display: list-item;
     }
 }
 
@@ -254,4 +278,18 @@ nav ul li {
     #mylogo {
         width: 180px;
     }
+
+    .about_container {
+        display: list-item;
+    }
+
+    .languages_logos img {
+        width: 30px;
+        height: 30px;
+        margin: 8px;
+    }
+    .languages_logos_container > h1 {
+        font-size: 20px;
+    }
+  
 }
