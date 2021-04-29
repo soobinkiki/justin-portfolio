@@ -4,11 +4,12 @@ import Navbar from './components/Navbar/Navbar'
 import Header from './components/Main/Header'
 import Particles from 'react-particles-js'
 import About from './components/Main/About'
-import { Link } from 'react-scroll'
+import Project from './components/Main/Project'
 
 export default function App() {
     return (
         <>
+            <Navbar />
             <Particles 
                 className="particles"
                 params={{
@@ -29,9 +30,9 @@ export default function App() {
                         }
                     }
                 }}/>
-            <Navbar />
             <Header />
             <About />
+            <Project />
         </>
     );
 }
