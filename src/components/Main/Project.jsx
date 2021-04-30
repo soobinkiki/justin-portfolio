@@ -7,8 +7,8 @@ export default function Project () {
                     <img src="images/related.gif" alt="gif"/>
                     <h2>RelateD</h2>
                     <div className="site_github_container">
-                        <a href="https://github.com/soobinkiki/relatedclient" target="_blank"><span className="frontback" id="front-back">Front:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
-                        <a href="https://github.com/soobinkiki/relatedserver" target="_blank"><span className="frontback">Back:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
+                        <a href="https://github.com/soobinkiki/relatedclient" target="_blank"><span className="frontback" id="front-back">Frontend:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
+                        <a href="https://github.com/soobinkiki/relatedserver" target="_blank"><span className="frontback">Backend:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
                         <a className="livesite" href="https://silly-swartz-2ee151.netlify.app" target="_blank">/  Live Site</a>
                     </div>
                     <p>Developed the web app to connect the community of people who have disabilities and special needs with one another. 
