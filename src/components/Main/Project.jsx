@@ -4,7 +4,9 @@ export default function Project () {
             <h1>Projects</h1>
             <div className="gif_container">
                 <div className="gif">
-                    <img src="images/related.gif" alt="gif"/>
+                    <div className="project_img">
+                        <img src="images/related.gif" alt="gif"/>
+                    </div>
                     <h2>RelateD</h2>
                     <div className="site_github_container">
                         <a href="https://github.com/soobinkiki/relatedclient" target="_blank" rel="noreferrer"><span className="frontback" id="front-back">Frontend:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
@@ -18,7 +20,9 @@ export default function Project () {
                     </p>
                 </div>
                 <div className="gif">
-                    <img src="images/world_soccer_league.gif" alt="gif"/>
+                    <div className="project_img">
+                        <img  src="images/world_soccer_league.gif" alt="gif"/>
+                    </div>
                     <h2>World Soccer League</h2>
                     <div className="site_github_container">
                         <a href="https://github.com/soobinkiki/World_Soccer_League" target="_blank" rel="noreferrer"><img id="githubIMG_2" src="/images/github.png" alt="GITHUB"></img></a>
@@ -29,7 +33,9 @@ export default function Project () {
                     </p>
                 </div>
                 <div className="gif">
-                    <img src="images/numbers_memory_game.gif" alt="gif"/>
+                    <div className="project_img">
+                        <img src="images/numbers_memory_game.gif" alt="gif"/>
+                    </div>
                     <h2>Numbers Memory Game</h2>
                     <div className="site_github_container">
                         <a href="https://github.com/soobinkiki/Numbers-Memory-Game" target="_blank" rel="noreferrer"><img id="githubIMG_2" src="/images/github.png" alt="GITHUB"></img></a>

@@ -218,9 +218,15 @@ nav ul li {
     margin-top: 5%;
 }
 
-.gif > img{
-    width: 570px;
-    padding: 20px;
+
+.project_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.project_img > img {
+    width: 550px;
 }
 
 .gif > h2 {
