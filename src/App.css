@@ -228,6 +228,7 @@ nav ul li {
     color: var(--primary-white) !important;
     font-family: 'Abel', sans-serif;
     font-size: 1.3em;
+    margin-bottom: 50px;
 }
 
 .gif > p {
@@ -245,18 +246,41 @@ nav ul li {
 }
 
 .site_github_container {
-    width: 230px;
+    width: auto;
     height: 40px;
     border: 1px solid white;
     padding: 0;
     margin-left: 20px;
 }
+.site_github_container > a:hover {
+    color: white;
+    text-decoration: none;
+    color: orange;
+}
 #githubIMG_2 {
     width: 23px;
     height: 23px;
-    margin-left: 30px;
+    margin-left: 25px;
     background: white;
     margin-top: -10px;
+}
+#githubIMG_3 {
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    margin-top: -10px;
+}
+#front-back {
+    margin-left: 20px;
+}
+.frontback {
+    font-size: 20px;
+    color: white;
+}
+.frontback:visited {
+    color: white;
 }
 
 
