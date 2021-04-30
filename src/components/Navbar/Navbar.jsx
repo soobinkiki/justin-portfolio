@@ -12,9 +12,9 @@ export default function Navbar () {
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item active">
                             <Link className="nav-link" to="home" smooth={true} duration={1000}>home</Link>
                             {/* <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a> */}
                         </li>
