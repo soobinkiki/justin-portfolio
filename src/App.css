@@ -198,7 +198,6 @@ nav ul li {
 }
 
 
-
 /**************** Project ***************/
 .project_container {
     width: 100%;
@@ -212,6 +211,54 @@ nav ul li {
     text-align: center;
     padding: 2%;
 }
+
+.gif_container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 5%;
+}
+
+.gif > img{
+    width: 570px;
+    padding: 20px;
+}
+
+.gif > h2 {
+    text-align: center;
+    color: var(--primary-white) !important;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3em;
+}
+
+.gif > p {
+    color: var(--primary-white) !important;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 10px;
+}
+
+.livesite {
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.site_github_container {
+    width: 230px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 0;
+    margin-left: 20px;
+}
+#githubIMG_2 {
+    width: 23px;
+    height: 23px;
+    margin-left: 30px;
+    background: white;
+    margin-top: -10px;
+}
+
 
 
 /**************** Contact ***************/
