@@ -19,9 +19,9 @@ export default function About () {
             <img id="my_photo" src={myphoto} alt="my_photo"/>
             <div className="about_container">
                 <div className="languages_logos_container">
-                    <h1>skill_container : </h1>
+                    {/* <h1>skill_container : </h1> */}
                     <div className="languages_logos">
-                        <div>
+                        <div className="single_logos">
                             <img src={html} alt="html"/>
                             <img src={css} alt="css"/>
                             <img src={javascript} alt="javascript"/>
@@ -29,7 +29,7 @@ export default function About () {
                             <img src={bootstrap} alt="bootstrap"/>
                             <img src={ejs} alt="ejs"/>
                         </div>
-                        <div>
+                        <div className="single_logos">
                             <img src={node} alt="node"/>
                             <img src={express} alt="express"/>
                             <img src={python} alt="python"/>
