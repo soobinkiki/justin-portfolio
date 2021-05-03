@@ -131,12 +131,8 @@ nav ul li {
 }
 
 /* bottom part */
-.about_container {
-    display: flex;
-}
-
 .about_introduce {
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4%;
@@ -147,42 +143,22 @@ nav ul li {
     font-size: 1.3em;
 }
 
-.languages_logos_container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3.5%;
-    display: flex;
-    width: 45%;
-    height: 300px;
-    /* padding: 20px; */
+.single_logos img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;  
 }
-
-.languages_logos_container {
-    border: 0.25em solid black;
-    border-radius: 10px;
-    /* margin-right: 35px; */
-}
-.languages_logos {
-    margin: auto;
-}
-
-/* .languages_logos_container > h1 {
-    font-family: 'Abel', sans-serif;
-    margin-right: 30px;
-    margin-top: 0px;
-} */
 
 .single_logos {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 20px;
 }
-.single_logos img {
-    width: 10%;
-    height: 10%;
-    margin: 8px;
-    
+.single_logos_container > p {
+    margin-top: 50px;
+    text-align: center;
 }
+
 
 #resume {
     margin-right: 15px;
@@ -212,7 +188,7 @@ nav ul li {
 /**************** Project ***************/
 .project_container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 100px;
     background-color: black;
 }
@@ -340,9 +316,9 @@ nav ul li {
     #my_photo {
         width: 500px;
     }
-    .about_container {
+    /* .about_container {
         display: list-item;
-    }
+    } */
 }
 @media (max-width: 768px) {
     .typical-text {
@@ -356,9 +332,9 @@ nav ul li {
     #my_photo {
         width: 300px;
     }
-    .about_container {
+    /* .about_container {
         display: list-item;
-    }
+    } */
 }
 
 @media all and (max-width: 360px) {
@@ -377,17 +353,17 @@ nav ul li {
         width: 180px;
     }
 
-    .about_container {
+    /* .about_container {
         display: list-item;
-    }
+    } */
 
-    .languages_logos img {
+    .single_logos img {
         width: 30px;
         height: 30px;
         margin: 8px;
     }
-    .languages_logos_container > h1 {
+    /* .languages_logos_container > h1 {
         font-size: 20px;
-    }
+    } */
   
 }

@@ -15,31 +15,9 @@ import git from '../../images/git.png'
 export default function About () {
     return (
         <div id="about">
-            <h1>About Me</h1>
+            <h1 id="aboutme_text">About Me</h1>
             <img id="my_photo" src={myphoto} alt="my_photo"/>
             <div className="about_container">
-                <div className="languages_logos_container">
-                    {/* <h1>skill_container : </h1> */}
-                    <div className="languages_logos">
-                        <div className="single_logos">
-                            <img src={html} alt="html"/>
-                            <img src={css} alt="css"/>
-                            <img src={javascript} alt="javascript"/>
-                            <img src={react} alt="react"/>
-                            <img src={bootstrap} alt="bootstrap"/>
-                            <img src={ejs} alt="ejs"/>
-                        </div>
-                        <div className="single_logos">
-                            <img src={node} alt="node"/>
-                            <img src={express} alt="express"/>
-                            <img src={python} alt="python"/>
-                            <img src={mongodb} alt="mongodb"/>
-                            <img src={postgresql} alt="postgresql"/>
-                            <img src={git} alt="git"/>
-                        </div>
-                    </div>
-                </div>
-                <div></div>
                 <div className="about_introduce">
                     <h1>Hello, I'm Justin Park</h1>
                     <p>I’m a creative-minded and solution-driven front-end software engineer who has a 
@@ -51,6 +29,27 @@ export default function About () {
                         <a href="https://github.com/soobinkiki" target="_blank" rel="noreferrer"><img id="githubIMG" src="/images/github.png" alt="GITHUB"></img></a>
                     </div>
                 </div>
+                {/* {"<h1>"}</span> Justin Park <span id="p_tag">{"</h1>"} */}
+                <div className="single_logos_container">
+                    <p>{"<languages>"}</p>
+                    <div className="single_logos">
+                        <img src={html} alt="html"/>
+                        <img src={css} alt="css"/>
+                        <img src={javascript} alt="javascript"/>
+                        <img src={react} alt="react"/>
+                        <img src={bootstrap} alt="bootstrap"/>
+                        <img src={ejs} alt="ejs"/>
+                    </div>
+                    <div className="single_logos">
+                        <img src={node} alt="node"/>
+                        <img src={express} alt="express"/>
+                        <img src={python} alt="python"/>
+                        <img src={mongodb} alt="mongodb"/>
+                        <img src={postgresql} alt="postgresql"/>
+                        <img src={git} alt="git"/>
+                    </div>
+                </div>
+                <div></div>
             </div>
         </div>
     )
