@@ -199,12 +199,6 @@ nav ul li {
     padding: 2%;
 }
 
-/* .gif_container {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin-top: 5%;
-} */
-
 .project_img {
     display: flex;
     justify-content: center;
@@ -230,11 +224,12 @@ nav ul li {
     margin: auto;
     font-size: 1.5em;
     font-family: 'Abel', sans-serif;
-
 }
+
 .site_github_container {
     text-align: center;
 }
+
 .livesite {
     margin-left: 20px;
     font-size: 30px;
@@ -359,6 +354,9 @@ nav ul li {
         width: 180px;
     }
 
+    .about_introduce {
+        width: 100%;
+    }
     .about_introduce h1 {
         margin-top: 20px;
         font-size: 12px;
@@ -372,27 +370,35 @@ nav ul li {
         color: black;
     }
 
+    #linkedInIMG, #githubIMG {
+        margin-top: 10px;
+    }
+
     .single_logos img {
         width: 25px;
         height: 25px;
         margin: 8px;
     }
 
-
     /******** project ********/
+    .project_img > img {
+        width: 100%;
+    }
+    .gif > p {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 1em;
 
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    .gif > h2 {
+        font-size: 1.1em;
+    }
+    .livesite {
+        font-size: 18px;
+    }
+    .site_github_container {
+        margin-left: -20px;
+    }
 
     /******** contact ********/
     #email_logo {
