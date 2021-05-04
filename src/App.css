@@ -199,37 +199,42 @@ nav ul li {
     padding: 2%;
 }
 
-.gif_container {
+/* .gif_container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin-top: 5%;
-}
+} */
 
 .project_img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 .project_img > img {
-    width: 95%;
+    width: 55%;
 }
 
 .gif > h2 {
     text-align: center;
     color: var(--primary-white) !important;
     font-family: 'Abel', sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 50px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
 }
 
 .gif > p {
     color: var(--primary-white) !important;
-    margin-top: 5%;
-    margin-left: 2%;
-    padding: 10px;
+    width: 50%;
+    margin: auto;
+    /* margin-top: 5%; */
+    /* margin-left: 2%; */
+    /* padding: 10px; */
 }
-
+.site_github_container {
+    text-align: center;
+}
 .livesite {
     margin-left: 20px;
     font-size: 30px;
@@ -237,13 +242,12 @@ nav ul li {
     font-family: 'Indie Flower', cursive;
 }
 
-.site_github_container {
-    width: auto;
-    height: 40px;
-    border: 1px solid white;
-    padding: 0;
+.site_github_container span {
     margin-left: 20px;
+    font-size: 30px;
+    color: white;
 }
+
 .site_github_container > a:hover {
     color: white;
     text-decoration: none;
@@ -264,13 +268,14 @@ nav ul li {
     background: white;
     margin-top: -10px;
 }
-#front-back {
-    margin-left: 20px;
+#githubIMG_2:hover, #githubIMG_3:hover {
+    transform: scale(1.1);
 }
-.frontback {
-    font-size: 20px;
-    color: white;
+
+#front, #back {
+    font-size: 15px;
 }
+
 .frontback:visited {
     color: white;
 }
