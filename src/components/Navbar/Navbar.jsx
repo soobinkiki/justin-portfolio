@@ -16,7 +16,6 @@ export default function Navbar () {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
                             <Link className="nav-link" to="home" smooth={true} duration={1000}>home</Link>
-                            {/* <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a> */}
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="about" smooth={true} duration={1000}>about</Link>

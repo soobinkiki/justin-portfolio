@@ -29,7 +29,6 @@ export default function About () {
                         <a href="https://github.com/soobinkiki" target="_blank" rel="noreferrer"><img id="githubIMG" src="/images/github.png" alt="GITHUB"></img></a>
                     </div>
                 </div>
-                {/* {"<h1>"}</span> Justin Park <span id="p_tag">{"</h1>"} */}
                 <div className="single_logos_container">
                     <p>{"<languages>"}</p>
                     <div className="single_logos">

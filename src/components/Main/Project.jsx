@@ -2,7 +2,6 @@ export default function Project () {
     return (
         <div className="project_container" id="project">
             <h1>Projects</h1>
-            {/* <div className="gif_container"> */}
                 <div className="gif">
                     <div className="project_img">
                         <img src="images/related.gif" alt="gif"/>
@@ -44,7 +43,6 @@ export default function Project () {
                     <p>Hey! Do you want to test your memory? I developed the web app game for users to test their memory. Two users take turns to type number(s) and challenge how many numbers they can memorize.</p>
                     <p>(HTML, CSS, Javascript)</p>
                 </div>
-            {/* </div> */}
         </div>
     )
 }
