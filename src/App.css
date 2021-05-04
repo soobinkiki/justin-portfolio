@@ -294,12 +294,16 @@ nav ul li {
 .lets_talk {
     font-size: 13em;
     background-color: white;
+    color: black;
     font-family: 'Indie Flower', cursive;
 }
 
 #email_logo {
     width: 100%;
     height: auto;
+}
+.lets_talk:hover, #email_logo:hover {
+    transform: scale(1.1);
 }
 
 
@@ -537,12 +541,12 @@ nav ul li {
 
     /******** contact ********/
     #email_logo {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         margin-top: -20px;
     }
     .lets_talk {
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 
