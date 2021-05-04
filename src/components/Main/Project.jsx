@@ -28,7 +28,7 @@ export default function Project () {
                         <a href="https://github.com/soobinkiki/World_Soccer_League" target="_blank" rel="noreferrer"><img id="githubIMG_2" src="/images/github.png" alt="GITHUB"></img></a>
                         <span>/</span><a className="livesite" href="https://world-soccer-league.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</a>
                     </div>
-                    <p>Created the web app to get the data of each of the countries' existing soccer leagues and participating clubs.</p>
+                    <p>Have you ever wondered what soccer leagues and teams are in the other country? I created the web app to get the data of each of the countries' existing soccer leagues and participating clubs.</p>
                     <p>(HTML, CSS, Node.js, Express.js, EJS, PostgreSQL) 
                     </p>
                 </div>
@@ -41,7 +41,7 @@ export default function Project () {
                         <a href="https://github.com/soobinkiki/Numbers-Memory-Game" target="_blank" rel="noreferrer"><img id="githubIMG_2" src="/images/github.png" alt="GITHUB"></img></a>
                         <span>/</span><a className="livesite" href="https://soobinkiki.github.io/" target="_blank" rel="noreferrer">Live Site</a>
                     </div>
-                    <p>Created the web app for users to test their memory. Two users take turns to type number(s) and challenge how many numbers they can memorize.</p>
+                    <p>Hey! Do you want to test your memory? I developed the web app game for users to test their memory. Two users take turns to type number(s) and challenge how many numbers they can memorize.</p>
                     <p>(HTML, CSS, Javascript)</p>
                 </div>
             {/* </div> */}

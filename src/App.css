@@ -220,7 +220,7 @@ nav ul li {
     text-align: center;
     color: var(--primary-white) !important;
     font-family: 'Abel', sans-serif;
-    font-size: 1.4em;
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
@@ -228,9 +228,9 @@ nav ul li {
     color: var(--primary-white) !important;
     width: 50%;
     margin: auto;
-    /* margin-top: 5%; */
-    /* margin-left: 2%; */
-    /* padding: 10px; */
+    font-size: 1.5em;
+    font-family: 'Abel', sans-serif;
+
 }
 .site_github_container {
     text-align: center;
