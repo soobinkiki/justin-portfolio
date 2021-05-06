@@ -10,7 +10,7 @@ export default function Project () {
                     <div className="site_github_container">
                         <a href="https://github.com/soobinkiki/relatedclient" target="_blank" rel="noreferrer"><span className="frontback" id="front">Frontend:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
                         <a href="https://github.com/soobinkiki/relatedserver" target="_blank" rel="noreferrer"><span className="frontback" id="back">Backend:</span><img id="githubIMG_3" src="/images/github.png" alt="GITHUB"></img></a>
-                        <span>/</span><a className="livesite" href="https://silly-swartz-2ee151.netlify.app" target="_blank" rel="noreferrer">Live Site</a>
+                        <span>/</span><a className="livesite" href="https://related-people.netlify.app" target="_blank" rel="noreferrer">Live Site</a>
                     </div>
                     <p>Developed the web app to connect the community of people who have disabilities and special needs with one another. 
                         Served as a lead front-end developer in a team with 3 developers and created a full-stack web application using MERN stack 
