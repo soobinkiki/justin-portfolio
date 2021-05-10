@@ -2,7 +2,7 @@
 - This is the first ever my personal portfolio website (v1.0). Developed using HTML, CSS, Bootstrap, and React.js.
 
 # Hello, Recruiter!
-- Looking for a new opportunity as a Front End Developer.
+- Looking for a new opportunity.
 - LinkedIn? here's the link: 
 [LinkedIn](https://www.linkedin.com/in/justin-sb-park/)
 - Link to the LIVE portfolio website: 
