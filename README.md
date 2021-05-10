@@ -1,5 +1,5 @@
 # Justin Park / Frond End Developer 
-- The first ever my personal portfolio website (v1.0). Developed using HTML, CSS, Bootstrap, and React.js.
+- This is the first ever my personal portfolio website (v1.0). Developed using HTML, CSS, Bootstrap, and React.js.
 
 # Hello, Recruiter!
 - Looking for a new opportunity as a Front End Developer.
@@ -8,8 +8,8 @@
 - Link to the LIVE portfolio website: 
 [Portfolio](https://www.justinsbpark.com/)
 
-# Links to my previous project.
-- Project: relateD
+# Links to my previous projects
+- Project: relateD (v1.0)
 [Live site](https://related-people.netlify.app/)
 - Project: World Soccer League
 [Live site](https://world-soccer-league.herokuapp.com/)
