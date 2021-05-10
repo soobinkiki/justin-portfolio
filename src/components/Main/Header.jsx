@@ -14,7 +14,8 @@ export default function Header () {
                             'Front End Developer', 1500,
                             'Software Engineer 💻', 1500,
                             'Creative thinker 🤔', 1500,
-                            'Logical thinker 🧐', 1500
+                            'Logical thinker 🧐', 1500,
+                            'Patient, Persistent', 1500
                         ]}
                     />
                 </p>
