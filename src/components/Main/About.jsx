@@ -32,20 +32,20 @@ export default function About () {
                 <div className="single_logos_container">
                     <p>{"<languages>"}</p>
                     <div className="single_logos">
-                        <img src={html} alt="html"/>
-                        <img src={css} alt="css"/>
-                        <img src={javascript} alt="javascript"/>
-                        <img src={react} alt="react"/>
-                        <img src={bootstrap} alt="bootstrap"/>
-                        <img src={ejs} alt="ejs"/>
+                        <div><img src={html} alt="html"/><p className="lang_text">HTML</p></div>
+                        <div><img src={css} alt="css"/><p className="lang_text">CSS</p></div>
+                        <div><img src={javascript} alt="javascript"/><p className="lang_text">JavaScript</p></div>
+                        <div><img src={react} alt="react"/><p className="lang_text">React.js</p></div>
+                        <div><img src={bootstrap} alt="bootstrap"/><p className="lang_text">Bootstrap</p></div>
+                        <div><img src={ejs} alt="ejs"/><p className="lang_text">EJS</p></div>
                     </div>
                     <div className="single_logos">
-                        <img src={node} alt="node"/>
-                        <img src={express} alt="express"/>
-                        <img src={python} alt="python"/>
-                        <img src={mongodb} alt="mongodb"/>
-                        <img src={postgresql} alt="postgresql"/>
-                        <img src={git} alt="git"/>
+                        <div><img src={node} alt="node"/><p className="lang_text">Node.js</p></div>
+                        <div><img src={express} alt="express"/><p className="lang_text">Express.js</p></div>
+                        <div><img src={python} alt="python"/><p className="lang_text">Python</p></div>
+                        <div><img src={mongodb} alt="mongodb"/><p className="lang_text">MongoDB</p></div>
+                        <div><img src={postgresql} alt="postgresql"/><p className="lang_text">PostgreSQL</p></div>
+                        <div><img src={git} alt="git"/><p className="lang_text">Git</p></div>
                     </div>
                 </div>
                 <div></div>

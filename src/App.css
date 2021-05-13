@@ -158,6 +158,10 @@ nav ul li {
     margin-top: 50px;
     text-align: center;
 }
+.lang_text {
+    text-align: center;
+    font-size: 0.75em;
+}
 
 
 #resume {
