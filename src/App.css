@@ -85,12 +85,12 @@ nav ul li {
 }
 .main-info h1 {
     font-family: 'Abel', sans-serif;
-    font-size: 8em;
+    font-size: 6em;
     color: var(--primary-white) !important
 }
 
 .typical-text {
-    font-size: 8.5em;
+    font-size: 6.5em;
     font-family: 'Indie Flower', cursive;
     color: var(--primary-white) !important
 }
