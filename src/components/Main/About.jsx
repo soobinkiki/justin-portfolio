@@ -30,7 +30,7 @@ export default function About () {
                     </div>
                 </div>
                 <div className="single_logos_container">
-                    <p>{"<languages>"}</p>
+                    <p>{"<skills>"}</p>
                     <div className="single_logos">
                         <div><img src={html} alt="html"/><p className="lang_text">HTML</p></div>
                         <div><img src={css} alt="css"/><p className="lang_text">CSS</p></div>
