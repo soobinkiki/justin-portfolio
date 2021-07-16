@@ -22,7 +22,7 @@ export default function About () {
                     <h1>Hello, I'm Justin Park</h1>
                     <p>I’m a creative-minded and solution-driven front-end software engineer who has a 
                         passion for building well-designed and intuitive programs. My confidence with JavaScript frameworks, 
-                        such as React, paired with CSS and bootstrap allow me to create well-designed and functioning solutions to problems.</p>
+                        such as React, paired with CSS, SASS, and bootstrap allow me to create well-designed and functioning solutions to problems.</p>
                     <div className="resume_linkedin_github">
                         <button id="resume" type="button"><a href="images/justin_resume.pdf" target="_blank">Resume</a></button>
                         <a href="https://www.linkedin.com/in/justin-sb-park/" target="_blank" rel="noreferrer"><img id="linkedInIMG" src="images/linkedin.png" alt="linkedIn"></img></a>
