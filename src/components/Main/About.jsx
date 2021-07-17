@@ -11,6 +11,8 @@ import mongodb from '../../images/mongodb.png'
 import postgresql from '../../images/postgresql.png'
 import bootstrap from '../../images/bootstrap.png'
 import git from '../../images/git.png'
+import github from '../../images/github.png'
+import sass from '../../images/sass.png'
 
 export default function About () {
     return (
@@ -38,6 +40,7 @@ export default function About () {
                         <div><img src={react} alt="react"/><p className="lang_text">React.js</p></div>
                         <div><img src={bootstrap} alt="bootstrap"/><p className="lang_text">Bootstrap</p></div>
                         <div><img src={ejs} alt="ejs"/><p className="lang_text">EJS</p></div>
+                        <div><img src={sass} alt="sass"/><p className="lang_text">SASS</p></div>
                     </div>
                     <div className="single_logos">
                         <div><img src={node} alt="node"/><p className="lang_text">Node.js</p></div>
@@ -46,6 +49,7 @@ export default function About () {
                         <div><img src={mongodb} alt="mongodb"/><p className="lang_text">MongoDB</p></div>
                         <div><img src={postgresql} alt="postgresql"/><p className="lang_text">PostgreSQL</p></div>
                         <div><img src={git} alt="git"/><p className="lang_text">Git</p></div>
+                        <div><img src={github} alt="github"/><p className="lang_text">Github</p></div>
                     </div>
                 </div>
                 <div></div>
