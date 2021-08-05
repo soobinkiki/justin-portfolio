@@ -3,7 +3,7 @@ import emailLogo from '../../images/email.png'
 export default function Contact () {
 
     const sendMail = () => {
-        const mailto = "mailto:j.sb.parkk@gmail.com?subject=Hi, Justin&body=How can I help you?";
+        const mailto = "mailto:j.sb.parkk@gmail.com?subject=Hello!&body=If you are reading this? You need to give me a job opportunity :)";
         window.open(mailto, "_blank")
     }
 
