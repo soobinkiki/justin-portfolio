@@ -1,11 +1,11 @@
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from './Components/Navbar/Navbar'
-import Header from './Components/Main/Header'
+import Navbar from './Components/Navbar/Navbar.jsx'
+import Header from './Components/Main/Header.jsx'
 import Particles from 'react-particles-js'
-import About from './Components/Main/About'
-import Project from './Components/Main/Project'
-import Contact from './Components/Main/Contact'
+import About from './Components/Main/About.jsx'
+import Project from './Components/Main/Project.jsx'
+import Contact from './Components/Main/Contact.jsx'
 
 export default function App() {
     return (
