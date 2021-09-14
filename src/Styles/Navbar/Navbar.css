@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+}
+
+nav {
+  z-index: 2;
+}
+
+#mylogo {
+  margin-top: -23%;
+}
+
+nav a.nav-link {
+  letter-spacing: 0.15em;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75em;
+  margin-left: 0.75em;
+  color: #fff !important;
+  border-top: 0.25em;
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.15em solid #f9ab00 !important;
+  color: #000 !important;
+}
+
+.navbar-brand {
+  max-width: 17.25em;
+  padding: 0 !important;
+  height: 4em !important;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+}
+
+/************ Media jQuery ************/
+@media (max-width: 1024px) {
+  .typical-text {
+    font-size: 5em;
+    margin: auto;
+    margin-right: 33px;
+  }
+
+  .main-info h1 {
+    font-size: 7em;
+  }
+
+  #my_photo {
+    width: 400px;
+  }
+
+  /* .about_container {
+      display: list-item;
+  } */
+}
+@media (max-width: 768px) {
+  /******** header ********/
+  .typical-text {
+    font-size: 4em;
+  }
+
+  .main-info h1 {
+    font-size: 4em;
+  }
+
+  /******** about ********/
+  #my_photo {
+    width: 350px;
+  }
+
+  /******** project ********/
+  .project_img > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gif > p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+
+  .gif > h2 {
+    font-size: 1.5em;
+  }
+
+  #front, #back {
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  .livesite {
+    font-size: 1.4em;
+  }
+
+  .site_github_container {
+    text-align: left;
+  }
+
+  /******** contact ********/
+  #email_logo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .lets_talk {
+    font-size: 5em;
+  }
+}
+@media (max-width: 540px) {
+  /******** Navbar ********/
+  #mylogo {
+    width: 200px;
+  }
+
+  /******** header ********/
+  .typical-text {
+    font-size: 2em;
+  }
+
+  .main-info h1 {
+    font-size: 3em;
+  }
+
+  /******** About ********/
+  .about_introduce {
+    width: 100%;
+  }
+
+  #my_photo {
+    width: 200px;
+  }
+
+  .about_introduce h1 {
+    margin-top: 20px;
+    font-size: 1.3em;
+  }
+
+  .about_introduce p {
+    font-size: 0.8em;
+  }
+
+  #resume > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .resume_linkedin_github {
+    display: flex;
+  }
+
+  .single_logos img {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+  }
+
+  .lang_text {
+    font-size: 0.5em;
+  }
+
+  /******** project ********/
+  .project_img > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gif > p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+
+  .gif > h2 {
+    font-size: 1.5em;
+  }
+
+  #front, #back {
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  .livesite {
+    font-size: 1.4em;
+  }
+
+  .site_github_container {
+    text-align: left;
+  }
+
+  /******** contact ********/
+  #email_logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .lets_talk {
+    font-size: 3em;
+  }
+}
+@media (max-width: 375px) {
+  /******** header ********/
+  .main-info h1 {
+    font-size: 2.3em;
+  }
+
+  .typical-text {
+    font-size: 1.5em;
+  }
+
+  /******** about ********/
+  .about_introduce h1 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .single_logos img {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+  }
+
+  .lang_text {
+    font-size: 0.4em;
+  }
+
+  /******** project ********/
+  #front, #back {
+    font-size: 0.7em;
+    margin: 0;
+  }
+
+  #githubIMG_3 {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+  }
+
+  #githubIMG_2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+}
+@media all and (max-width: 360px) {
+  /******** Navbar ********/
+  #mylogo {
+    width: 180px;
+  }
+
+  /******** header ********/
+  .typical-text {
+    font-size: 1.4em;
+    margin-right: 33px;
+  }
+
+  .main-info h1 {
+    font-size: 2em;
+  }
+
+  /******** About ********/
+  #my_photo {
+    width: 150px;
+  }
+
+  .about_introduce {
+    width: 100%;
+  }
+
+  .about_introduce h1 {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .about_introduce p {
+    font-size: 12px;
+  }
+
+  #resume > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #linkedInIMG, #githubIMG {
+    margin-top: 10px;
+  }
+
+  .single_logos img {
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+  }
+
+  /******** project ********/
+  .project_img > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gif > p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+
+  .gif > h2 {
+    font-size: 1.1em;
+  }
+
+  .livesite {
+    font-size: 18px;
+  }
+
+  .site_github_container {
+    margin-left: -20px;
+  }
+
+  /******** contact ********/
+  #email_logo {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+  }
+
+  .lets_talk {
+    font-size: 3em;
+  }
+}
+@media all and (max-width: 320px) {
+  /******** Navbar ********/
+  #mylogo {
+    width: 180px;
+  }
+
+  /******** header ********/
+  .typical-text {
+    font-size: 1.4em;
+    margin-right: 33px;
+  }
+
+  .main-info h1 {
+    font-size: 2em;
+  }
+
+  /******** About ********/
+  #aboutme_text {
+    font-size: 2em;
+  }
+
+  #my_photo {
+    width: 120px;
+  }
+
+  .about_introduce {
+    width: 100%;
+  }
+
+  .about_introduce h1 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .about_introduce p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #resume > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .resume_linkedin_github {
+    display: flex;
+    justify-content: center;
+  }
+
+  #githubIMG, #linkedInIMG {
+    margin-top: 0;
+  }
+
+  .single_logos img {
+    width: 29px;
+    height: 29px;
+    margin: 8px;
+  }
+
+  /******** project ********/
+  .project_container h1 {
+    margin-left: -10px;
+  }
+
+  .project_img > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gif > p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+
+  .gif > h2 {
+    font-size: 1.2em;
+  }
+
+  #front, #back {
+    font-size: 1em;
+    margin-left: 25px;
+  }
+
+  #back {
+    margin-left: 28px;
+  }
+
+  .livesite {
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  .site_github_container {
+    text-align: left;
+  }
+
+  #githubIMG_2 {
+    width: 17px;
+    height: 17px;
+    margin-left: 25px;
+    background: white;
+    margin-top: -10px;
+  }
+
+  /******** contact ********/
+  #email_logo {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .lets_talk {
+    margin-top: 50px;
+    font-size: 3em;
+  }
+}
+@media all and (max-width: 280px) {
+  #mylogo {
+    height: 120px;
+    margin-top: -12%;
+  }
+
+  .navbar-brand {
+    height: 3em !important;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

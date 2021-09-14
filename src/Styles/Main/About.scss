@@ -1,3 +1,90 @@
+@import '../../Variables/Variables.scss';
+
+* {
+    @include defaultStyle()
+}
+
+#about {
+    background-color: $primaryWhite;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+}
+
+#about > h1 {
+    text-align: center;
+    padding: 1.5%;
+    font-family: $primaryFont;
+}
+
+#my_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* bottom part */
+.about_introduce {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.about_introduce > p {
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.single_logos img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;  
+}
+
+.single_logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.single_logos_container > p {
+    margin-top: 50px;
+    text-align: center;
+}
+.lang_text {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+
+#resume {
+    margin-right: 15px;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid $primaryBlack;
+    background-color: $primaryWhite;
+}
+#resume > a {
+    text-decoration: none;
+    color: $primaryBlack;
+}
+
+#linkedInIMG, #githubIMG {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+#linkedInIMG:hover, #githubIMG:hover, #resume:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 /************ Media jQuery ************/
 @media (max-width: 1024px) {
     .typical-text {
@@ -365,82 +452,36 @@
 }
 
 @media all and (max-width: 280px) {
-    /******** About ********/
-    #aboutme_text {
-        font-size: 1em;
-    }
-    #my_photo {
-        width: 80px;
+    #about > h1 {
+        font-size: 1.38em;
+        text-align: center;
     }
 
-    .about_introduce {
-        width: 100%;
-    }
-    .about_introduce h1 {
+    #about_introduce {
         margin-top: 20px;
         font-size: 15px;
+        text-align: center;
     }
     .about_introduce p {
         width: 100%;
         font-size: 12px;
+        text-align: center;
     }
-
-    .single_logos img {
+    #resume {
+        height: 30px;
+    }
+  
+    #linkedInIMG, #githubIMG {
         width: 30px;
         height: 30px;
-        margin: 8px;
-    }
-    .lang_text {
-        font-size: 0.5em;
     }
 
-    /******** project ********/
-    .project_container h1 {
-        margin-left: -30px;
+    .single_logos div img {
+        width: 23px;
+        height: 23px;
+        margin: 7px;
     }
-
-    .project_img > img {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .gif > p {
-        width: 100%;
-        margin-top: 10px;
-        font-size: 0.9em;
-    }
-    .gif > h2 {
-        font-size: 1.5em;
-    }
-    #front, #back {
-        font-size: 0.5em;
-        margin-left: 25px;
-    }
-    #back {
-        margin-left: 28px;
-    }
-    .livesite {
-        font-size: 1em;
-        margin-left: 10px;
-    }
-    .site_github_container {
-        text-align: left;
-    }
-    #githubIMG_2 {
-        width: 17px;
-        height: 17px;
-        margin-left: 25px;
-        background: white;
-        margin-top: -10px;
-    }
-    /******** contact ********/
-    #email_logo {
-        margin-top: 50px;
-        width: 150px;
-        height: 150px;
-    }
-    .lets_talk {
-        margin-top: 50px;
-        font-size: 3em;
-    }
+    // .lang_text {
+    //     font-size: 0.5em;
+    // }
 }

@@ -14,6 +14,8 @@ import git from '../../images/git.png'
 import github from '../../images/github.png'
 import sass from '../../images/sass.png'
 
+import '../../Styles/Main/About.css'
+
 export default function About () {
     return (
         <div id="about">
@@ -21,7 +23,7 @@ export default function About () {
             <img id="my_photo" src={myphoto} alt="my_photo"/>
             <div className="about_container">
                 <div className="about_introduce">
-                    <h1>Hello, I'm Justin Park</h1>
+                    <h1 id="about_introduce">Hello, I'm Justin Park</h1>
                     <p>I’m a creative-minded and solution-driven front-end software engineer who has a 
                         passion for building well-designed and intuitive programs. My confidence with JavaScript frameworks, 
                         such as React, paired with CSS, SASS, and bootstrap allow me to create well-designed and functioning solutions to problems.</p>
@@ -32,7 +34,7 @@ export default function About () {
                     </div>
                 </div>
                 <div className="single_logos_container">
-                    <p>{"<languages/skills>"}</p>
+                    <p>{"< skills >"}</p>
                     <div className="single_logos">
                         <div><img src={html} alt="html"/><p className="lang_text">HTML</p></div>
                         <div><img src={css} alt="css"/><p className="lang_text">CSS</p></div>

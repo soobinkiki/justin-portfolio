@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&display=swap');
+
+@mixin defaultStyle {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primaryFont: 'Abel', sans-serif;
+$particleFont: 'Indie Flower';
+
+$primaryWhite: #fff;
+$primaryBlack: #000;
+$primaryOrange: #f9ab00;
+$primaryRed: #f95700

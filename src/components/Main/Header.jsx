@@ -1,4 +1,5 @@
 import Typical from 'react-typical'
+import '../../Styles/Main/Header.css'
 
 export default function Header () {
     return (

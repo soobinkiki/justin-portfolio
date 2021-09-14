@@ -1,5 +1,5 @@
 import mylogo from '../../../src/images/portfolio_logo.png'
-// import './Navbar.css'
+import '../../Styles/Navbar/Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
@@ -17,16 +17,16 @@ export default function Navbar () {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <Link className="nav-link" to="home" smooth={true} duration={1000}>home</Link>
+                            <Link className="nav-link" to="home" smooth={true} duration={1000}>HOME</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="about" smooth={true} duration={1000}>about</Link>
+                            <Link className="nav-link" to="about" smooth={true} duration={1000}>ABOUT</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="project" smooth={true} duration={1000}>project</Link>
+                            <Link className="nav-link" to="project" smooth={true} duration={1000}>PROJECT</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="contact" smooth={true} duration={1000}>contact</Link>
+                            <Link className="nav-link" to="contact" smooth={true} duration={1000}>CONTACT</Link>
                         </li>
                     </ul>
                 </div>

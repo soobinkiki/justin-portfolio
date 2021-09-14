@@ -1,3 +1,38 @@
+@import '../../Variables/Variables.scss';
+
+* {
+    @include defaultStyle()
+}
+
+.contact_main_container {
+    background-color: var(--primary-white) !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#contact_btn {
+    padding: 0;
+    border: none;
+    background: none;  
+}
+
+.lets_talk {
+    font-size: 13em;
+    background-color: white;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+}
+
+#email_logo {
+    width: 100%;
+    height: auto;
+}
+.lets_talk:hover, #email_logo:hover {
+    transform: scale(1.1);
+}
+
+
 /************ Media jQuery ************/
 @media (max-width: 1024px) {
     .typical-text {

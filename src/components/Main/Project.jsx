@@ -1,3 +1,5 @@
+import '../../Styles/Main/Project.css'
+
 export default function Project () {
     return (
         <div className="project_container" id="project">
@@ -15,8 +17,7 @@ export default function Project () {
                     <p>Developed the web app to connect the community of people who have disabilities and special needs with one another. 
                         Served as a lead front-end developer in a team with 3 developers and created a full-stack web application using MERN stack 
                         and wrote 80% codes on front-side functionalities.</p>
-                    <p>(HTML, CSS, MongoDB, Express.js, React.js, Node.js)
-                    </p>
+                    <p>(HTML5, CSS3, MongoDB, Express.js, React.js, Node.js)</p>
                 </div>
                 <div className="gif">
                     <div className="project_img">
@@ -28,8 +29,7 @@ export default function Project () {
                         <span>/</span><a className="livesite" href="https://world-soccer-league.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</a>
                     </div>
                     <p>Have you ever wondered what soccer leagues and clubs are in the other country? I created the web app to get the data of each of the countries' existing soccer leagues and participating clubs using multiple 3rd party APIs.</p>
-                    <p>(HTML, CSS, Node.js, Express.js, EJS, PostgreSQL, RESTful APIs) 
-                    </p>
+                    <p>(HTML5, CSS3, Node.js, Express.js, EJS, PostgreSQL, RESTful APIs) </p>
                 </div>
                 <div className="gif">
                     <div className="project_img">
@@ -41,7 +41,7 @@ export default function Project () {
                         <span>/</span><a className="livesite" href="https://soobinkiki.github.io/" target="_blank" rel="noreferrer">Live Site</a>
                     </div>
                     <p>Hey!! Do you want to test your memory? I developed the web app game for users to test their memory. Two users take turns to type number(s) and challenge how many numbers they can memorize.</p>
-                    <p>(HTML, CSS, Javascript)</p>
+                    <p>(HTML5, CSS3, Javascript)</p>
                 </div>
         </div>
     )

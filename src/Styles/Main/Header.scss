@@ -1,3 +1,52 @@
+@import '../../Variables/Variables.scss';
+
+* {
+    @include defaultStyle()
+}
+
+.header-wrapper {
+    position: relative;
+    background-color: $primaryBlack !important;
+    height: 100vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: $primaryFont;
+    color: $primaryBlack !important
+}
+.main-info h1 {
+    font-family: $primaryFont;
+    font-size: 6em;
+    color: $primaryWhite !important
+}
+
+.typical-text {
+    font-size: 6.5em;
+    font-family: $particleFont;
+    color: $primaryWhite !important
+}
+
+.tsparticles-canvas-el {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+#p_tag {
+    font-size: 0.3em;
+}
+
+
 /************ Media jQuery ************/
 @media (max-width: 1024px) {
     .typical-text {

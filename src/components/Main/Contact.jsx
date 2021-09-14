@@ -1,4 +1,5 @@
 import emailLogo from '../../images/email.png'
+import '../../Styles/Main/Contact.css'
 
 export default function Contact () {
 
