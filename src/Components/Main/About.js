@@ -1,26 +1,11 @@
-import myphoto from '../../../src/images/my_photo.jpeg'
-import html from '../../images/html.png'
-import css from '../../images/css3.png'
-import javascript from '../../images/javascript.png'
-import ejs from '../../images/ejs.png'
-import react from '../../images/react.png'
-import node from '../../images/node-js.png'
-import express from '../../images/express.png'
-import python from '../../images/python.png'
-import mongodb from '../../images/mongodb.png'
-import postgresql from '../../images/postgresql.png'
-import bootstrap from '../../images/bootstrap.png'
-import git from '../../images/git.png'
-import github from '../../images/github.png'
-import sass from '../../images/sass.png'
-
-import '../../Styles/Main/About.css'
+import Images from '../Images/Images';
+import '../../Styles/Main/About.css';
 
 export default function About () {
     return (
         <div id="about">
             <h1 id="aboutme_text">About Me</h1>
-            <img id="my_photo" src={myphoto} alt="my_photo"/>
+            <img id="my_photo" src={Images.myphoto} alt="my_photo"/>
             <div className="about_container">
                 <div className="about_introduce">
                     <h1 id="about_introduce">Hello, I'm Justin Park</h1>
@@ -36,22 +21,22 @@ export default function About () {
                 <div className="single_logos_container">
                     <p>{"< skills >"}</p>
                     <div className="single_logos">
-                        <div><img src={html} alt="html"/><p className="lang_text">HTML</p></div>
-                        <div><img src={css} alt="css"/><p className="lang_text">CSS</p></div>
-                        <div><img src={javascript} alt="javascript"/><p className="lang_text">JavaScript</p></div>
-                        <div><img src={react} alt="react"/><p className="lang_text">React.js</p></div>
-                        <div><img src={bootstrap} alt="bootstrap"/><p className="lang_text">Bootstrap</p></div>
-                        <div><img src={ejs} alt="ejs"/><p className="lang_text">EJS</p></div>
-                        <div><img src={sass} alt="sass"/><p className="lang_text">SASS</p></div>
+                        <div><img src={Images.html} alt="html"/><p className="lang_text">HTML</p></div>
+                        <div><img src={Images.css} alt="css"/><p className="lang_text">CSS</p></div>
+                        <div><img src={Images.javascript} alt="javascript"/><p className="lang_text">JavaScript</p></div>
+                        <div><img src={Images.react} alt="react"/><p className="lang_text">React.js</p></div>
+                        <div><img src={Images.bootstrap} alt="bootstrap"/><p className="lang_text">Bootstrap</p></div>
+                        <div><img src={Images.ejs} alt="ejs"/><p className="lang_text">EJS</p></div>
+                        <div><img src={Images.sass} alt="sass"/><p className="lang_text">SASS</p></div>
                     </div>
                     <div className="single_logos">
-                        <div><img src={node} alt="node"/><p className="lang_text">Node.js</p></div>
-                        <div><img src={express} alt="express"/><p className="lang_text">Express.js</p></div>
-                        <div><img src={python} alt="python"/><p className="lang_text">Python</p></div>
-                        <div><img src={mongodb} alt="mongodb"/><p className="lang_text">MongoDB</p></div>
-                        <div><img src={postgresql} alt="postgresql"/><p className="lang_text">PostgreSQL</p></div>
-                        <div><img src={git} alt="git"/><p className="lang_text">Git</p></div>
-                        <div><img src={github} alt="github"/><p className="lang_text">Github</p></div>
+                        <div><img src={Images.node} alt="node"/><p className="lang_text">Node.js</p></div>
+                        <div><img src={Images.express} alt="express"/><p className="lang_text">Express.js</p></div>
+                        <div><img src={Images.python} alt="python"/><p className="lang_text">Python</p></div>
+                        <div><img src={Images.mongodb} alt="mongodb"/><p className="lang_text">MongoDB</p></div>
+                        <div><img src={Images.postgresql} alt="postgresql"/><p className="lang_text">PostgreSQL</p></div>
+                        <div><img src={Images.git} alt="git"/><p className="lang_text">Git</p></div>
+                        <div><img src={Images.github} alt="github"/><p className="lang_text">Github</p></div>
                     </div>
                 </div>
                 <div></div>
