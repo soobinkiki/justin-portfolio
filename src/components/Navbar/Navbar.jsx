@@ -1,7 +1,9 @@
 import mylogo from '../../../src/images/portfolio_logo.png'
+// import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
+
 
 export default function Navbar () {
     return (
