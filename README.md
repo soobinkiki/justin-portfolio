@@ -1,6 +1,6 @@
 # Justin Park / Frond End Developer 
-- This is the first ever my personal portfolio website (v1.0). Developed using HTML, CSS, Bootstrap, and React.js.
-
+- This is the first ever my personal portfolio website (v1.0). Developed using HTML5, CSS3, Bootstrap4, and React.js.
+- Portfolio (v1.1) is now released. Updates: Implementation of SASS
 # Hello, Recruiter!
 - Looking for a new opportunity.
 - LinkedIn? here's the link: 
