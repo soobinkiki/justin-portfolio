@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
 
-
 export default function Navbar () {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor: '#A79781'}}>
