@@ -14,8 +14,12 @@ export default function About () {
                         such as React, paired with CSS, SASS, and bootstrap allow me to create well-designed and functioning solutions to problems.</p>
                     <div className="resume_linkedin_github">
                         <button id="resume" type="button"><a href="images/justin_resume.pdf" target="_blank">Resume</a></button>
-                        <a href="https://www.linkedin.com/in/justin-sb-park/" target="_blank" rel="noreferrer"><img id="linkedInIMG" src="images/linkedin.png" alt="linkedIn"></img></a>
-                        <a href="https://github.com/soobinkiki" target="_blank" rel="noreferrer"><img id="githubIMG" src="/images/github.png" alt="GITHUB"></img></a>
+                        <a href="https://www.linkedin.com/in/justin-sb-park/" target="_blank" rel="noreferrer">
+                            <img id="linkedInIMG" src={Images.linkedin} alt="linkedIn"></img>
+                        </a>
+                        <a href="https://github.com/soobinkiki" target="_blank" rel="noreferrer">
+                            <img id="githubIMG" src={Images.github} alt="GITHUB"></img>
+                        </a>
                     </div>
                 </div>
                 <div className="single_logos_container">

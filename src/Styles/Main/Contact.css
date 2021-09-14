@@ -7,7 +7,7 @@
 }
 
 .contact_main_container {
-  background-color: var(--primary-white) !important;
+  background-color: #fff !important;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -21,9 +21,10 @@
 
 .lets_talk {
   font-size: 13em;
-  background-color: white;
+  background-color: #fff;
   color: black;
-  font-family: "Indie Flower", cursive;
+  font-family: "Indie Flower";
+  margin-left: 120px;
 }
 
 #email_logo {

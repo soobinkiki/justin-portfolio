@@ -1,4 +1,4 @@
-import mylogo from '../../../src/images/portfolio_logo.png'
+import Images from '../Images/Images';
 import '../../Styles/Navbar/Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -8,7 +8,7 @@ export default function Navbar () {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor: '#A79781'}}>
             <div className="container">
-                <a className="navbar-brand" href="/"><img id="mylogo" src={mylogo} alt="portfolio_logo"/></a>
+                <a className="navbar-brand" href="/"><img id="mylogo" src={Images.mylogo} alt="portfolio_logo"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
                 </button>
