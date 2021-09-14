@@ -456,7 +456,9 @@
         font-size: 1.38em;
         text-align: center;
     }
-
+    #my_photo {
+        margin-left: -20px;
+    }
     #about_introduce {
         margin-top: 20px;
         font-size: 15px;
@@ -468,12 +470,13 @@
         text-align: center;
     }
     #resume {
-        height: 30px;
+        height: 35px;
+        padding: 5px;
     }
   
     #linkedInIMG, #githubIMG {
         width: 30px;
-        height: 30px;
+        height: 35px;
     }
 
     .single_logos div img {
@@ -481,7 +484,4 @@
         height: 23px;
         margin: 7px;
     }
-    // .lang_text {
-    //     font-size: 0.5em;
-    // }
 }

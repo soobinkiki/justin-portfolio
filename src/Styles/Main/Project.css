@@ -513,48 +513,9 @@
   }
 }
 @media all and (max-width: 280px) {
-  .project_container {
-    width: 100%;
-  }
-
   .project_container > h1 {
     font-size: 2em;
-    transform: translateX(15px);
+    transform: translateX(-3px);
     margin-bottom: -50px;
-  }
-
-  .gif > p {
-    width: 100%;
-    font-size: 0.7em;
-  }
-
-  .gif > h2 {
-    font-size: 0.1em;
-  }
-
-  #front, #back {
-    font-size: 0.5em;
-    margin-left: 25px;
-  }
-
-  #back {
-    margin-left: 28px;
-  }
-
-  .livesite {
-    font-size: 1em;
-    margin-left: 10px;
-  }
-
-  .site_github_container {
-    text-align: left;
-  }
-
-  #githubIMG_2 {
-    width: 17px;
-    height: 17px;
-    margin-left: 25px;
-    background: white;
-    margin-top: -10px;
   }
 }/*# sourceMappingURL=Project.css.map */

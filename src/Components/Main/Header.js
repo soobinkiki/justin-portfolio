@@ -6,7 +6,7 @@ export default function Header () {
         <div className="header-wrapper">
             <div className="main-info">
                 <h1><span id="p_tag">{"<h1>"}</span> Justin Park <span id="p_tag">{"</h1>"}</span></h1>
-                <p>I'm a...{' '}
+                <p>
                     <Typical
                         className="typical-text"
                         loop={Infinity}
