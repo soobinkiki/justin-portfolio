@@ -266,132 +266,25 @@
   }
 }
 @media (max-width: 375px) {
-  /******** header ********/
-  .main-info h1 {
-    font-size: 2.3em;
-  }
-
-  .typical-text {
-    font-size: 1.5em;
-  }
-
-  /******** about ********/
-  .about_introduce h1 {
-    margin-top: 20px;
-    font-size: 18px;
-  }
-
-  .single_logos img {
-    width: 40px;
-    height: 40px;
-    margin: 8px;
-  }
-
-  .lang_text {
-    font-size: 0.4em;
-  }
-
-  /******** project ********/
-  #front, #back {
-    font-size: 0.7em;
-    margin: 0;
-  }
-
-  #githubIMG_3 {
-    width: 20px;
-    height: 20px;
-    margin-left: 2px;
-  }
-
-  #githubIMG_2 {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-  }
-}
-@media (max-width: 360px) {
-  /******** Navbar ********/
-  #mylogo {
-    width: 180px;
-  }
-
-  /******** header ********/
-  .typical-text {
-    font-size: 1.4em;
-    margin-right: 33px;
-  }
-
-  .main-info h1 {
-    font-size: 2em;
-  }
-
-  /******** About ********/
-  #my_photo {
-    width: 150px;
-  }
-
-  .about_introduce {
-    width: 100%;
-  }
-
-  .about_introduce h1 {
-    margin-top: 20px;
-    font-size: 12px;
-  }
-
-  .about_introduce p {
-    font-size: 12px;
-  }
-
-  #resume > a {
-    text-decoration: none;
-    color: black;
-  }
-
-  #linkedInIMG, #githubIMG {
-    margin-top: 10px;
-  }
-
-  .single_logos img {
-    width: 25px;
-    height: 25px;
-    margin: 8px;
-  }
-
-  /******** project ********/
-  .project_img > img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .gif > p {
-    width: 100%;
-    margin-top: 10px;
-    font-size: 1em;
-  }
-
-  .gif > h2 {
-    font-size: 1.1em;
-  }
-
-  .livesite {
-    font-size: 18px;
+  .project_container h1 {
+    font-size: 2.7em;
+    transform: translateX(0px);
+    margin-bottom: -50px;
   }
 
   .site_github_container {
-    margin-left: -20px;
+    display: flex;
+    transform: translateX(13px);
+  }
+  .site_github_container :nth-child(1) {
+    transform: translateX(-10px);
+  }
+  .site_github_container span {
+    font-size: 2em;
   }
 
-  /******** contact ********/
-  #email_logo {
-    width: 100px;
-    height: 100px;
-    margin-top: -20px;
-  }
-
-  .lets_talk {
-    font-size: 3em;
+  #githubIMG_2 {
+    transform: translateY(15px);
   }
 }
 @media (max-width: 320px) {
@@ -403,7 +296,7 @@
 
   .site_github_container {
     display: flex;
-    transform: translateX(13px);
+    transform: translateX(-15px);
   }
   .site_github_container :nth-child(1) {
     transform: translateX(-10px);
@@ -425,6 +318,7 @@
 
   .site_github_container {
     display: flex;
+    transform: translateX(-35px);
   }
   .site_github_container :nth-child(1) {
     transform: translateX(-10px);
