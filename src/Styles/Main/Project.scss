@@ -356,123 +356,29 @@
 }
 
 @media all and (max-width: 320px) {
-    /******** Navbar ********/
-    #mylogo {
-        width: 180px;
-    }
-    /******** header ********/
-    .typical-text {
-        font-size: 1.4em;
-        margin-right: 33px;
-    }
-    .main-info h1 {
-        font-size: 2em;
-    }
-   
-    /******** About ********/
-    #aboutme_text {
-        font-size: 2em;
-    }
-    #my_photo {
-        width: 120px;
-    }
 
-    .about_introduce {
-        width: 100%;
-    }
-    .about_introduce h1 {
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    .about_introduce p {
-        width: 100%;
-        font-size: 12px;
-    }
-
-    #resume > a {
-        text-decoration: none;
-        color: black;
-    }
-    .resume_linkedin_github {
-        display: flex;
-        justify-content: center;
-
-    }
-    #githubIMG, #linkedInIMG {
-        margin-top: 0;
-    }
-
-    .single_logos img {
-        width: 29px;
-        height: 29px;
-        margin: 8px;
-    }
-
-    /******** project ********/
-    .project_container h1 {
-        margin-left: -10px;
-    }
-
-    .project_img > img {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .gif > p {
-        width: 100%;
-        margin-top: 10px;
-        font-size: 1em;
-    }
-    .gif > h2 {
-        font-size: 1.2em;
-    }
-    #front, #back {
-        font-size: 1em;
-        margin-left: 25px;
-    }
-    #back {
-        margin-left: 28px;
-    }
-    .livesite {
-        font-size: 1em;
-        margin-left: 10px;
-    }
-    .site_github_container {
-        text-align: left;
-    }
-    #githubIMG_2 {
-        width: 17px;
-        height: 17px;
-        margin-left: 25px;
-        background: white;
-        margin-top: -10px;
-    }
-    /******** contact ********/
-    #email_logo {
-        margin-top: 50px;
-        width: 150px;
-        height: 150px;
-    }
-    .lets_talk {
-        margin-top: 50px;
-        font-size: 3em;
-    }
 }
 
 @media all and (max-width: 280px) {
-    // .project_container {
-    //     width: 110%;
-    // }
-    .project_container > h1 {
-        font-size: 2em;
-        transform: translateX(-3px);
-        margin-bottom: -50px;
+    .project_container {
+        h1 {
+            font-size: 2.5em;
+            transform: translateX(-30px);
+            margin-bottom: -50px;
+        }
+    }
+    .site_github_container {
+        display: flex;
+        :nth-child(1) {
+            transform: translateX(-5px);
+        }
+        span {   
+            font-size: 2em;
+        }
     }
 
-    // .gif > p {
-    //     width: 100%;
-    //     // margin-top: 10px;
-    //     font-size: 0.7em;
-    // }
-    
+    #githubIMG_2 {
+        transform: translateY(15px);
+    }
+
 }

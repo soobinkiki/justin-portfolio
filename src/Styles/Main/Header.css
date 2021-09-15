@@ -346,130 +346,26 @@
   }
 }
 @media all and (max-width: 320px) {
-  /******** Navbar ********/
-  #mylogo {
-    width: 180px;
+  .header-wrapper {
+    overflow: hidden;
   }
 
-  /******** header ********/
-  .typical-text {
-    font-size: 1.4em;
-    margin-right: 33px;
+  .main-info p {
+    font-size: 0.8em;
+    margin-left: 35px;
   }
 
   .main-info h1 {
-    font-size: 2em;
-  }
-
-  /******** About ********/
-  #aboutme_text {
-    font-size: 2em;
-  }
-
-  #my_photo {
-    width: 120px;
-  }
-
-  .about_introduce {
-    width: 100%;
-  }
-
-  .about_introduce h1 {
-    margin-top: 20px;
-    font-size: 20px;
-  }
-
-  .about_introduce p {
-    width: 100%;
-    font-size: 12px;
-  }
-
-  #resume > a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .resume_linkedin_github {
-    display: flex;
-    justify-content: center;
-  }
-
-  #githubIMG, #linkedInIMG {
-    margin-top: 0;
-  }
-
-  .single_logos img {
-    width: 29px;
-    height: 29px;
-    margin: 8px;
-  }
-
-  /******** project ********/
-  .project_container h1 {
-    margin-left: -10px;
-  }
-
-  .project_img > img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .gif > p {
-    width: 100%;
-    margin-top: 10px;
     font-size: 1em;
-  }
-
-  .gif > h2 {
-    font-size: 1.2em;
-  }
-
-  #front, #back {
-    font-size: 1em;
-    margin-left: 25px;
-  }
-
-  #back {
-    margin-left: 28px;
-  }
-
-  .livesite {
-    font-size: 1em;
-    margin-left: 10px;
-  }
-
-  .site_github_container {
-    text-align: left;
-  }
-
-  #githubIMG_2 {
-    width: 17px;
-    height: 17px;
-    margin-left: 25px;
-    background: white;
-    margin-top: -10px;
-  }
-
-  /******** contact ********/
-  #email_logo {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-  }
-
-  .lets_talk {
-    margin-top: 50px;
-    font-size: 3em;
   }
 }
 @media all and (max-width: 280px) {
-  .typical-text {
-    font-size: 1.4em;
-    margin-right: 33px;
+  .main-info p {
+    font-size: 0.8em;
+    margin-left: 35px;
   }
 
   .main-info h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
 }/*# sourceMappingURL=Header.css.map */

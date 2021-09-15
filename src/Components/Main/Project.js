@@ -12,10 +12,12 @@ export default function Project () {
                     <h2 className="project_title">RelateD</h2>
                     <div className="site_github_container">
                         <a href="https://github.com/soobinkiki/relatedclient" target="_blank" rel="noreferrer">
-                            <span className="frontback" id="front">Frontend:</span><img id="githubIMG_3" src={Images.github} alt="GITHUB"></img>
+                            <span className="frontback" id="front">Frontend:</span>
+                            <img id="githubIMG_3" src={Images.github} alt="GITHUB"></img>
                         </a>
                         <a href="https://github.com/soobinkiki/relatedserver" target="_blank" rel="noreferrer">
-                            <span className="frontback" id="back">Backend:</span><img id="githubIMG_3" src={Images.github} alt="GITHUB"></img>
+                            <span className="frontback" id="back">Backend:</span>
+                            <img id="githubIMG_3" src={Images.github} alt="GITHUB"></img>
                         </a>
                         <span>/</span><a className="livesite" href="https://related-people.netlify.app" target="_blank" rel="noreferrer">Live Site</a>
                     </div>
