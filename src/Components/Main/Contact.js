@@ -4,7 +4,7 @@ import '../../Styles/Main/Contact.css'
 export default function Contact () {
 
     const sendMail = () => {
-        const mailto = "mailto:j.sb.parkk@gmail.com?subject=Hello!&body=If you are reading this? You need to give me a job opportunity :)";
+        const mailto = "mailto:j.sb.parkk@gmail.com?subject=Hello!&body=Hey Recruiter, please give ma an opportunity for the interview!";
         window.open(mailto, "_blank")
     }
 
