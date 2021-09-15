@@ -37,7 +37,7 @@
 }
 
 /************ Media jQuery ************/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #email_logo {
     margin-top: 50px;
     width: 300px;
@@ -51,45 +51,6 @@
   }
 }
 @media (max-width: 540px) {
-  #email_logo {
-    margin-top: 50px;
-    width: 200px;
-    height: 200px;
-  }
-
-  .lets_talk {
-    margin-top: 50px;
-    font-size: 3.5em;
-    margin-left: 0px;
-  }
-}
-@media (max-width: 375px) {
-  #email_logo {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-  }
-
-  .lets_talk {
-    margin-top: 50px;
-    font-size: 3em;
-    margin-left: 0px;
-  }
-}
-@media (max-width: 320px) {
-  #email_logo {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-  }
-
-  .lets_talk {
-    margin-top: 50px;
-    font-size: 3em;
-    margin-left: 0px;
-  }
-}
-@media (max-width: 280px) {
   #email_logo {
     margin-top: 50px;
     width: 150px;

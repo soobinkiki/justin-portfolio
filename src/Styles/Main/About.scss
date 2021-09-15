@@ -90,87 +90,175 @@
    
 }
 @media (max-width: 768px) {
-    .single_logos div {
-        img {
-            width: 45px;
-            height: 45px;
-            margin: 20px;
-        }
-        p {
-            font-size: 1.2em;
+    #my_photo {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .about_container {
+        .about_introduce {
+            width: 600px;
+            transform: translateX(-20px);
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 18px;
+                margin-bottom: 30px;
+            }
         }
     }
 }
 
 @media (max-width: 540px) {
     #about_introduce {
-        font-size: 25px;
+        font-size: 20px;
     }
     .about_container {
         .about_introduce {
+            width: 400px;
+            transform: translateX(-20px);
+            h1 {
+                font-size: 26px;
+            }
             p {
                 font-size: 16px;
                 margin-bottom: 30px;
             }
         }
     }
+    #my_photo {
+        width: 100%;
+        transform: translateX(0px);
+        margin-bottom: 20px;
+    }
+    
     #resume {
-        height: 45px;
-        padding: 5px;
+        width: 65px;
+        height: 35px;
     }
     #aboutme_text {
-        font-size: 2.5em;
+        width: 400px;
+        font-size: 2em;
+        transform: translateX(-30px);
+    }
+    .resume_linkedin_github {
+        display: flex;
+        transform: translateX(0px);
     }
     #linkedInIMG, #githubIMG {
-        width: 45px;
-        height: 45px;
+        transform: translateY(3px);
+        width: 30px;
+        height: 30px;
     }
     .single_logos div {
         img {
-            width: 45px;
-            height: 45px;
-            margin: 5px;
+            width: 35px;
+            height: 35px;
+            margin: 12px;
         }
         p {
-            font-size: 0.8em;
+            font-size: 0.7em;
+        }
+    }
+}
+@media (max-width: 425px) {
+    #about_introduce {
+        font-size: 20px;
+    }
+    .about_container {
+        .about_introduce {
+            width: 300px;
+            transform: translateX(-40px);
+            h1 {
+                font-size: 26px;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    #my_photo {
+        width: 130%;
+        transform: translateX(-30px);
+        margin-bottom: 20px;
+    }
+    
+    #resume {
+        width: 65px;
+        height: 35px;
+    }
+    #aboutme_text {
+        width: 300px;
+        font-size: 2em;
+        transform: translateX(-40px);
+    }
+    .resume_linkedin_github {
+        display: flex;
+        transform: translateX(0px);
+    }
+    #linkedInIMG, #githubIMG {
+        transform: translateY(3px);
+        width: 30px;
+        height: 30px;
+    }
+    .single_logos div {
+        img {
+            width: 27px;
+            height: 27px;
+            margin: 12px;
+        }
+        p {
+            font-size: 0.7em;
         }
     }
 }
 @media (max-width: 375px) {
     #about_introduce {
-        font-size: 22px;
+        font-size: 20px;
     }
     .about_container {
         .about_introduce {
+            width: 265px;
+            transform: translateX(-40px);
+            h1 {
+                font-size: 24px;
+            }
             p {
-                font-size: 15px;
+                font-size: 14px;
                 margin-bottom: 30px;
             }
         }
     }
-    #resume {
-        height: 45px;
-        padding: 5px;
-    }
     #my_photo {
-        transform: translateX(-20px);
+        width: 130%;
+        transform: translateX(-30px);
+        margin-bottom: 20px;
+    }
+    
+    #resume {
+        width: 65px;
+        height: 35px;
     }
     #aboutme_text {
+        width: 265px;
         font-size: 2em;
-    }
-    #linkedInIMG, #githubIMG {
-        width: 45px;
-        height: 45px;
-        transform: translateY(0px);
+        transform: translateX(-40px);
     }
     .resume_linkedin_github {
-        transform: translateX(-15px);
+        display: flex;
+        transform: translateX(0px);
+    }
+    #linkedInIMG, #githubIMG {
+        transform: translateY(3px);
+        width: 30px;
+        height: 30px;
     }
     .single_logos div {
         img {
-            width: 40px;
-            height: 40px;
-            margin: 5px;
+            width: 27px;
+            height: 27px;
+            margin: 9px;
         }
         p {
             font-size: 0.7em;
@@ -180,42 +268,53 @@
 
 @media (max-width: 320px) {
     #about_introduce {
-        font-size: 22px;
+        font-size: 20px;
     }
     .about_container {
         .about_introduce {
+            width: 200px;
+            transform: translateX(-40px);
+            h1 {
+                font-size: 24px;
+            }
             p {
-                font-size: 15px;
+                font-size: 14px;
                 margin-bottom: 30px;
             }
         }
     }
-    #resume {
-        height: 35px;
-        padding: 5px;
-    }
     #my_photo {
-        transform: translateX(-40px);
+        width: 150%;
+        transform: translateX(-30px);
+        margin-bottom: 20px;
+    }
+    
+    #resume {
+        width: 65px;
+        height: 35px;
     }
     #aboutme_text {
+        width: 200px;
         font-size: 2em;
-    }
-    #linkedInIMG, #githubIMG {
-        width: 35px;
-        height: 35px;
-        transform: translateY(0px);
+        transform: translateX(-40px);
     }
     .resume_linkedin_github {
-        transform: translateX(-25px);
+        display: flex;
+        transform: translateX(0px);
+    }
+    #linkedInIMG, #githubIMG {
+        transform: translateY(3px);
+        width: 30px;
+        height: 30px;
     }
     .single_logos div {
         img {
-            width: 30px;
-            height: 30px;
-            margin: 7px;
+            width: 27px;
+            height: 27px;
+            margin: 9px;
         }
         p {
-            font-size: 0.6em;
+            font-size: 0.7em;
         }
     }
 }
