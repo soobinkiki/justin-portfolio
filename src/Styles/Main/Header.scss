@@ -231,7 +231,7 @@
     }
 }
 
-@media all and (max-width: 360px) {
+@media (max-width: 360px) {
     /******** Navbar ********/
     #mylogo {
         width: 180px;
@@ -309,23 +309,19 @@
     }
 }
 
-@media all and (max-width: 320px) {
-    .header-wrapper {
-        overflow: hidden;
-    }
+@media (max-width: 320px) {
     .main-info {
         p {
             font-size: 0.8em;
             margin-left: 35px;
         }
     }
-
     .main-info h1 {
         font-size: 1em;
     }
 }
 
-@media all and (max-width: 280px) {
+@media (max-width: 280px) {
     .main-info {
         p {
             font-size: 0.8em;

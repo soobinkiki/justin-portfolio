@@ -11,14 +11,13 @@ const Images = {
     mongodb: require('./Skills/mongodb.png').default,
     postgresql: require('./Skills/postgresql.png').default,
     bootstrap: require('./Skills/bootstrap.png').default,
-    git: require('./Skills/git.png').default,
-    github: require('./Skills/github.png').default,
     sass: require('./Skills/sass.png').default,
-
+    
     //source images
     myphoto: require('./Sources/my_photo.jpeg').default,
     elogo: require('./Sources/email.png').default,
     mylogo: require('./Sources/portfolio_logo.png').default,
+    git: require('./Skills/git.png').default,
     github: require('./Sources/github.png').default,
     linkedin: require('./Sources/linkedin.png').default
 }

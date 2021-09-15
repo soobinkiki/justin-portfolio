@@ -277,7 +277,7 @@
     }
 }
 
-@media all and (max-width: 360px) {
+@media (max-width: 360px) {
     /******** Navbar ********/
     #mylogo {
         width: 180px;
@@ -355,11 +355,30 @@
     }
 }
 
-@media all and (max-width: 320px) {
-
+@media (max-width: 320px) {
+    .project_container {
+        h1 {
+            font-size: 2.5em;
+            transform: translateX(-5px);
+            margin-bottom: -50px;
+        }
+    }
+    .site_github_container {
+        display: flex;
+        transform: translateX(13px);
+        :nth-child(1) {
+            transform: translateX(-10px);
+        }
+        span {   
+            font-size: 2em;
+        }
+    }
+    #githubIMG_2 {
+        transform: translateY(15px);
+    }
 }
 
-@media all and (max-width: 280px) {
+@media (max-width: 280px) {
     .project_container {
         h1 {
             font-size: 2.5em;
@@ -370,13 +389,12 @@
     .site_github_container {
         display: flex;
         :nth-child(1) {
-            transform: translateX(-5px);
+            transform: translateX(-10px);
         }
         span {   
             font-size: 2em;
         }
     }
-
     #githubIMG_2 {
         transform: translateY(15px);
     }

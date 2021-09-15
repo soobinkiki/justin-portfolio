@@ -343,11 +343,6 @@ nav a.nav-link {
   }
 }
 @media all and (max-width: 320px) {
-  .navbar {
-    width: 280px;
-    overflow: hidden;
-  }
-
   #mylogo {
     height: 120px;
     margin-top: -12%;

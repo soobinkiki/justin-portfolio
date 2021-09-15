@@ -348,28 +348,39 @@
 }
 
 @media all and (max-width: 320px) {
-    // #about {
-    //     width: 150%;
-    //     transform: translateX(-70px);
-    //     overflow: hidden;
-    // }
-    // #about_introduce {
-    //     font-size: 20px;
-    // }
+    #about_introduce {
+        font-size: 22px;
+    }
+    .about_container {
+        .about_introduce {
+            p {
+                font-size: 15px;
+                margin-bottom: 30px;
+            }
+        }
+    }
     #resume {
         height: 35px;
         padding: 5px;
     }
-  
+    #my_photo {
+        transform: translateX(-20px);
+    }
+    #aboutme_text {
+        font-size: 2em;
+    }
     #linkedInIMG, #githubIMG {
         width: 35px;
         height: 35px;
+        transform: translateY(-10px);
     }
-
+    .resume_linkedin_github {
+        transform: translateX(-25px);
+    }
     .single_logos div img {
-        width: 23px;
-        height: 23px;
-        margin: 7px;
+        width: 35px;
+        height: 35px;
+        margin: 5px;
     }
 }
 
