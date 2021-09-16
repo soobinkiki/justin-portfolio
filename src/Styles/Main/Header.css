@@ -50,6 +50,15 @@
 }
 
 /************ Media jQuery ************/
+@media (max-width: 1024px) {
+  .main-info {
+    font-size: 0.6em;
+  }
+  .main-info p {
+    font-size: 1em;
+    margin-left: 35px;
+  }
+}
 @media (max-width: 768px) {
   .main-info {
     font-size: 0.6em;

@@ -49,9 +49,6 @@
 
 /************ Media jQuery ************/
 @media (max-width: 1024px) {
-   
-}
-@media (max-width: 768px) {
     .main-info {
         font-size: 0.6em;
         p {
@@ -69,7 +66,6 @@
             transform: translateX(-15px);
         }
     }
-
     .main-info h1 {
         font-size: 4em;
     }
@@ -82,7 +78,6 @@
             transform: translateX(-15px);
         }
     }
-
     .main-info h1 {
         font-size: 3em;
     }
