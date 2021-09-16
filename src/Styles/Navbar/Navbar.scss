@@ -24,14 +24,14 @@ nav a.nav-link {
 .navbar-nav > li > a {
     margin-right: 0.75em;
     margin-left: 0.75em;
-    color: $primaryWhite;
+    color: $primaryWhite !important;
     border-top: 0.25em
 
 }
 
 .navbar-nav > li > a:hover {
     border-bottom: 0.15em solid $primaryOrange;
-    color: $primaryBlack;
+    color: $primaryBlack !important;
 }
 
 .navbar-brand {
