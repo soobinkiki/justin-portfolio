@@ -8,7 +8,7 @@ export default function About () {
             <img id="my_photo" src={Images.myphoto} alt="my_photo"/>
             <div className="about_container">
                 <div className="about_introduce">
-                    <h1 id="about_introduce">Hello, I'm Justin Park</h1>
+                    <h1 id="about_introduce">Hello! I'm Justin Park</h1>
                     <p>I’m a creative-minded and solution-driven front-end software engineer who has a 
                         passion for building well-designed and intuitive programs. My confidence with JavaScript frameworks, 
                         such as React, paired with CSS, SASS, and bootstrap allow me to create well-designed and functioning solutions to problems.</p>
